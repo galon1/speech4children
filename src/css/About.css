@@ -1,0 +1,8 @@
+@import "../index.css";
+
+p {
+    margin-top: 10vh;
+    min-height: 60vh;
+    line-height: 2.0em;
+    font-size: 1.2em;
+}

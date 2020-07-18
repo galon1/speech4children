@@ -1,0 +1,16 @@
+@import "../index.css";
+
+td {
+    width: 50vw;
+    /* border: 1px solid green; */
+    vertical-align: top;
+    font-size: 1.2em;
+}
+
+.email-link {
+    color: black !important;
+}
+
+.email-link:hover {
+    color: purple !important;
+}
