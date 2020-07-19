@@ -8,7 +8,7 @@ class Header extends React.Component {
     render() {
         return (
             <div className="grey-background">
-\            <Link to="/">
+            <Link to="/">
             <h2 className="title">Speech4Children</h2></Link>
             <div className="menu-container">
             <a href="./about" className="menu-item">ABOUT</a>

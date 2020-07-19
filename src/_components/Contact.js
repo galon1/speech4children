@@ -1,7 +1,7 @@
 import 'semantic-ui-css/semantic.min.css'
 import React from 'react';
 import { Image, Button } from 'semantic-ui-react'
-import picture from '../images/profile_pic.jpg'
+import building from '../images/building.jpeg'
 import '../css/Contact.css'
 
 
@@ -15,7 +15,7 @@ class Contact extends React.Component {
                     <tbody>
                         <tr>
                             <td>
-                                <Image src={picture} size='large' bordered float='right' />
+                                <Image src={building} size='large' bordered float='right' />
                             </td>
                             <td>
                             <span><h2><i class="building icon"></i> Address:</h2>

@@ -2,14 +2,21 @@ import 'semantic-ui-css/semantic.min.css'
 import React from 'react';
 import { Image } from 'semantic-ui-react'
 import Shared from './Shared.js'
+import building from '../images/building.jpeg'
+import beanbag from '../images/beanbag.jpeg'
+import room1 from '../images/room1.jpeg'
+import roomcouch from '../images/roomcouch.jpeg'
+import roomdoor from '../images/roomdoor.jpeg'
+import sign from '../images/sign.jpeg'
+import waitingroom from '../images/waitingroom.jpeg'
+import '../css/Facility.css'
 
 class Facility extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
           images: [
-            "https://picsum.photos/200/300/?image=523",
-            "https://picsum.photos/200/300/?image=524"
+            building, sign, roomdoor, roomcouch, waitingroom, beanbag, room1
           ],
           index: 0,
         };
@@ -21,16 +28,13 @@ class Facility extends React.Component {
       componentDidMount() {
         let intervalId = setInterval(() => {
           this.setState(prevState => {
-              switch(this.state.index){
-                  case 0:
-                      return {index: this.state.index + 1}
-                case 1:
-                    return {index: 0}
-                default:
-                    break;
-              }
+            if(this.state.index + 1 === this.state.images.length){
+              return { index: 0}
+          } else {
+              return {index: this.state.index + 1}
+          }
           });
-        }, 3000);
+        }, 2050);
     
         this.setState({
           intervalId
@@ -61,14 +65,19 @@ class Facility extends React.Component {
     render() {
         return (
             <div id="facility">
-             <Image src={this.state.images[this.state.index]} size='large' bordered floated='left' />
-             <div class="large ui vertical inverted secondary button  button" onClick={() => this.onClickBack()}>
+              <h2>Office: 44 Mechanic St. Newton, MA</h2>
+             <Image className="office-pictures" src={this.state.images[this.state.index]} size='large' bordered/>
+           <div className="arrow-buttons">
+           <div class="large ui vertical inverted secondary button  button" onClick={() => this.onClickBack()}>
                     <i class="angle left icon"></i>
                 </div>
              <div class="large ui vertical inverted secondary button  button" onClick={() => this.onClickForward()}>
                     <i class="angle right icon"></i>
-                </div>    
+                </div>  
+                </div>
+                <div className="bottom-button">
              <Shared />
+             </div>
             </div>
         )
     }

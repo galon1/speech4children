@@ -1,28 +1,35 @@
 @import "../index.css";
 
 .post-container {
-    text-align:center
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: center;
+}
+
+.amit-desk-picture {
+    max-width: 39% !important;
+    height: auto;
 }
 
 .post-item {
     margin:20px; 
-    width: 40%;
-    min-height: 50vh;
-    color: black;
-    background-color:rgb(240,240,240);
+    width: 45%;
+    height: 60vh;
+    background-color:rgba(75,0,130, 0.3);
     font-family: 'Josefin Sans';
-    font-weight: 'bold';
     font-size: 1.5em;
-    border: 5px solid black;
     line-height: 1.4em;
-    text-align:center;
-    display: inline-block;
-
+    display: flex;
+    align-items:center;
+    border-radius: 50%;
 }
 
 .post-title{
     text-transform: uppercase !important;
-    padding-top: 15vh;  
+    max-width: 90%;
+    padding-left: 12vh;  
 }
 
 .buttons {
