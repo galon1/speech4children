@@ -1,6 +1,6 @@
 import 'semantic-ui-css/semantic.min.css'
 import React from 'react';
-import { Image, Icon, Button } from 'semantic-ui-react'
+import { Image } from 'semantic-ui-react'
 import picture from '../images/profile_pic.jpg'
 import '../css/About.css'
 

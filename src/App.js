@@ -5,8 +5,8 @@ import Header from './_components/Header.js';
 import Facility from './_components/Facility.js';
 import Services from './_components/Services.js';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import AboutPage from './_components/AboutPage.js'
-
+import AboutPage from './_components/AboutPage.js';
+import Testimonial from './_components/Testimonial.js';
 function App() {
   return (
     <>
@@ -19,6 +19,7 @@ function App() {
             <Route path="/about" component={AboutPage} />
             <Route path="/services" component={Services} />
             <Route path="/facility" component={Facility} />
+            <Route path="/testimonial" component={Testimonial} />
           </Switch>
           </div>
           </div>

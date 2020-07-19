@@ -1,6 +1,6 @@
 import 'semantic-ui-css/semantic.min.css'
 import React from 'react';
-import { Image, Button } from 'semantic-ui-react'
+import { Image } from 'semantic-ui-react'
 import picture from '../images/profile_pic.jpg'
 import '../css/Services.css'
 class Services extends React.Component {
@@ -19,7 +19,7 @@ class Services extends React.Component {
                             </td>
                             <td>
                                 <h2 className="service-title">Available Services for Kids Ages 1-18: </h2>
-                                <div class="ui massive list">
+                                <div class="ui huge list">
                                     {services.map(service => {
                                         return (
                                             <div class="item">
