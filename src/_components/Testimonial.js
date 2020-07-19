@@ -2,6 +2,7 @@ import 'semantic-ui-css/semantic.min.css'
 import React from 'react';
 import '../css/Testimonial.css';
 import testimonials from '../textfiles/testimonials.json';
+import Shared from './Shared.js'
 
 class Testimonial extends React.Component {
     render() {
@@ -12,26 +13,14 @@ class Testimonial extends React.Component {
                     {testimonials.description.map((testimonial, index) => {
                         return (
                             <div className="testimonial-item">
-                                <h2>{testimonials.titles[index]}</h2>
+                                <h2><i class="star outline icon"></i>{testimonials.titles[index]}</h2>
                                 <div className="description">{testimonial}</div>
                                 <div className="border"></div>
                             </div>
                         )
                     })}
-
                 </div>
-                <div class="large ui vertical inverted secondary button animated button" onClick={() => document.documentElement.scrollTop = 0}>
-                    <div class="hidden content"> <i class="up arrow icon"></i></div>
-                    <div class="visible content">
-                        Back To Top
-                    </div>
-                </div>
-                <div class="large ui vertical inverted secondary button animated button" onClick={() => { window.open("./", "_self")}}>
-                    <div class="hidden content"> <i class="history icon"></i></div>
-                    <div class="visible content">
-                        Back To Home
-                    </div>
-                </div>
+                <Shared />
             </div>
         )
     }

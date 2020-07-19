@@ -11,5 +11,6 @@ table.center{
 }
 
 td {
+    /* border-right: 1px solid black; */
     width: 50vw;
 }

@@ -18,7 +18,7 @@ class Contact extends React.Component {
                                 <Image src={picture} size='large' bordered float='right' />
                             </td>
                             <td>
-                            <span><h2><i class="home icon"></i> Address:</h2>
+                            <span><h2><i class="building icon"></i> Address:</h2>
                                 44 Mechanic Street
                                 Suite 106-108
                                 Newton Ma, 02464

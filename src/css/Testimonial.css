@@ -30,6 +30,15 @@
     padding-right:3vw;
 }
 
+.modal{
+    max-width: 40vw;
+}
+
+.modal-description {
+    font-size: 125% !important;
+    line-height: 2.0em;
+}
+
 .testimonial-container {
     display:flex;
     flex-direction: column;
