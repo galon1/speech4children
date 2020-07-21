@@ -1,8 +1,19 @@
 @import "../index.css";
 
 p {
-    margin-top: 10vh;
+    margin-top: 6vh;
     min-height: 60vh;
     line-height: 2.0em;
     font-size: 1.2em;
+}
+
+.picture-container{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+}
+
+.picture {
+    height: 60vh !important;
+    width: auto;
 }

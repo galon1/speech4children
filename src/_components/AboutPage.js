@@ -13,9 +13,10 @@ class AboutPage extends React.Component {
         return (
             <>
                 <h2> About: Speech4Children </h2>
-                <Image src={standing} size='large' bordered floated='left' />
-                <Image src={working} size='large' bordered='left' />
-                <p> {about.text} </p>
+                <div className="picture-container">
+                <Image className="picture" src={standing} size='large' bordered floated='left' />
+                <Image className="picture" src={working} size='large' bordered='left' />
+                </div><p> {about.text} </p>
              <Shared /> 
                 </>
         )
