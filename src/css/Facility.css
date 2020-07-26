@@ -3,15 +3,12 @@
 .office-pictures {
     height: auto;
     width: 100vh !important;
-    left: 25%;
+    left: 27%;
 }
 
 .arrow-buttons {
     position:absolute;
-    top: 110% !important;
-    left: 45% !important;
+    top: 650px;
+    left: 42%;
 }
 
-.bottom-button {
-    padding-top: 5vw;
-}

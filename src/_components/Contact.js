@@ -1,9 +1,8 @@
 import 'semantic-ui-css/semantic.min.css'
 import React from 'react';
-import { Image, Button } from 'semantic-ui-react'
-import building from '../images/building.jpeg'
+import { Button } from 'semantic-ui-react'
 import '../css/Contact.css'
-
+import Header from './Header.js'
 
 class Contact extends React.Component {
 
@@ -11,28 +10,28 @@ class Contact extends React.Component {
     render() {
         return (
             <div>
-                <table>
-                    <tbody>
-                        <tr>
-                            <td>
-                                <Image src={building} size='large' bordered float='right' />
-                            </td>
-                            <td>
-                            <span><h2><i class="building icon"></i> Address:</h2>
-                                44 Mechanic Street
-                                Suite 106-108
-                                Newton Ma, 02464
-                    <h2><i class="envelope icon"></i>Email:</h2>
-                    speech4children@gmail.com<br />
-                    <Button basic color="black">
+                 <p> <Header /></p>
+              <h1 className="page-title">CONACT US:<br /> <span className="page-title-caption">Weekdays from 8am-6pm</span></h1>
+               <div className= "border"></div>
+               <div className="icons-container" >
+               <i class="huge purple building icon"></i><div className="icon-padding"></div>
+               <i class="huge purple envelope icon" ></i><div className="icon-padding"></div>
+               <i class="huge purple phone icon" ></i><div className="icon-padding"></div>
+               </div>
+                <div className="description-container">
+                    <div className="descriptions">
+                <p>44 Mechanic St, Suite 106-108,<br /> Newton MA 02464</p><div className="description-padding"></div></div>
+                <div className="descriptions">
+                <p>speech4children@gmail.com</p>< br/><br />
+                    </div>
+                    <Button className="email-button">
                     <a className="email-link" href="mailto:speech4children@gmail.com" >Send an Email</a> 
                     </Button>
-                <h2><i class="phone icon"></i>Phone:</h2>
-                 617.795.0401</span>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+                    <div className="description-padding-last"></div>
+                <div className="descriptions">
+                <p>T: 617.795.0401</p><div className="description-padding"></div></div>
+                
+            </div>
             </div>
         )
     }

@@ -1,0 +1,40 @@
+.black {
+    background-color: black;
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    top: 925px;
+}
+
+.speech4children {
+    color: white;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+}
+
+.contact-us {
+    color: white;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    right: 30px;
+    width: 20%;
+    top: 0px !important;
+}
+
+.bottom-item {
+    padding-top: 10vh;
+    color: white;
+    font-family: 'Josefin Sans';
+    font-weight: 'bold';
+    font-size: 1.0em;
+    text-align:center;
+    position: relative;
+    padding-right: 6vw;
+}
+
+.bottom-item:hover {
+    color: purple;
+}

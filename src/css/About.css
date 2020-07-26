@@ -17,3 +17,8 @@ p {
     height: 60vh !important;
     width: auto;
 }
+
+.about-description {
+    margin-left: 10%;
+    margin-right: 10%;
+}

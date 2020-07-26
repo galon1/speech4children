@@ -1,7 +1,6 @@
 import 'semantic-ui-css/semantic.min.css'
 import React from 'react';
 import { Image } from 'semantic-ui-react'
-import Shared from './Shared.js'
 import building from '../images/building.jpeg'
 import beanbag from '../images/beanbag.jpeg'
 import room1 from '../images/room1.jpeg'
@@ -10,6 +9,7 @@ import roomdoor from '../images/roomdoor.jpeg'
 import sign from '../images/sign.jpeg'
 import waitingroom from '../images/waitingroom.jpeg'
 import '../css/Facility.css'
+import Header from './Header.js';
 
 class Facility extends React.Component {
     constructor(props) {
@@ -65,7 +65,9 @@ class Facility extends React.Component {
     render() {
         return (
             <div id="facility">
-              <h2>Office: 44 Mechanic St. Newton, MA</h2>
+              <p> <Header /></p>
+              <h1 className="page-title">The Facility:<br /> <span className="page-title-caption">44 Mechanic St, Newton MA</span></h1>
+                <div className="border"></div>
              <Image className="office-pictures" src={this.state.images[this.state.index]} size='large' bordered/>
            <div className="arrow-buttons">
            <div class="large ui vertical inverted secondary button  button" onClick={() => this.onClickBack()}>
@@ -75,10 +77,7 @@ class Facility extends React.Component {
                     <i class="angle right icon"></i>
                 </div>  
                 </div>
-                <div className="bottom-button">
-             <Shared />
              </div>
-            </div>
         )
     }
 }

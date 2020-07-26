@@ -1,40 +1,55 @@
 @import "../index.css";
 
-.grey-background {
-    background-color: rgb(230,230,230);
-    padding-top: 2vw; 
-    padding-right: 6vw;
-    padding-left: 6vw;
-
-}
 .menu-container {
     display: flex;
     flex-direction: row;
-    border-bottom: 4px solid black;
-    padding-top: 3vh;
 }
 
 .menu-item {
-    width: 20%;
+    z-index: 100;
+    width: 100%;
     color: black;
     font-family: 'Josefin Sans';
     font-weight: 'bold';
-    font-size: 1.5em;
+    font-size: 1.0em;
     text-align:center;
+    position: relative;
+    padding-right: 2vw;
 }
+
 
 .menu-item:hover {
     font-weight: 'bolder';
     color: purple;
 }
 
-.title {
+.contact-button {
+    z-index: 100;
+    background-color: purple !important;
+    color: white !important;
+    font-family: 'Josefin Sans' !important;
+    font-weight: 'bold' !important;
+    font-size: 0.9em !important;
+}
+.contact-button:hover{
+    color: black !important;
+}
+
+.margin {
+    margin-left: 35vw;
+}
+
+.logo-title {
     font-family: 'Josefin Sans';
-    font-size: 350%; 
     color: purple;
-    margin-left: 32.5%;
+    font-size: 1.75em;
+    margin-left: 2vw;
   }
 
-.title:hover {
-    color: indigo;
+  .logo-title:hover {
+      color:indigo;
+  }
+
+.link {
+    z-index: 100;
 }

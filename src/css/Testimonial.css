@@ -1,63 +1,20 @@
 @import "../index.css";
 
-.post-container {
+  .testimonial-person {
+    margin-left: 25%;
+    color: purple;
+  }
+
+  .testimonial-description {
+      width: 50%;
+      margin-left: 25%;
+      font-size: 18px;
+      line-height: 25px;
+  }
+
+  .testimonial-button-container{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    align-items:center;
-    justify-content: center;
-}
-
-.amit-desk-picture {
-    max-width: 39% !important;
-    height: auto;
-}
-
-.post-item {
-    margin:20px; 
-    width: 45%;
-    height: 60vh;
-    background-color:rgba(75,0,130, 0.3);
-    font-family: 'Josefin Sans';
-    font-size: 1.5em;
-    line-height: 1.4em;
-    display: flex;
-    align-items:center;
-    border-radius: 50%;
-}
-
-.post-title{
-    text-transform: uppercase !important;
-    max-width: 90%;
-    padding-left: 12vh;  
-}
-
-.buttons {
-    padding-left: 29vw;
-    padding-right:3vw;
-}
-
-.modal{
-    max-width: 40vw;
-}
-
-.modal-description {
-    font-size: 125% !important;
-    line-height: 2.0em;
-}
-
-.testimonial-container {
-    display:flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-
-.testimonial-item {
-    padding-left: 5vw;
-    max-width: 90%;
-    min-height: 30vh;
-}
-
-.description {
-    line-height: 1.7em;
-}
+    margin-left: 40%;
+    padding-top: 20px;
+  }
