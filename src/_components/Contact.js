@@ -11,7 +11,7 @@ class Contact extends React.Component {
         return (
             <div>
                  <p> <Header /></p>
-              <h1 className="page-title">CONACT US:<br /> <span className="page-title-caption">Weekdays from 8am-6pm</span></h1>
+              <h1 className="page-title">CONTACT US:<br /> <span className="page-title-caption">Weekdays from 8am-6pm</span></h1>
                <div className= "border"></div>
                <div className="icons-container" >
                <i class="huge purple building icon"></i><div className="icon-padding"></div>
