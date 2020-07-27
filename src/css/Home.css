@@ -70,7 +70,7 @@
   }
 
   .amit-desk-image {
-    top: 80vh;
+    top: 90vh;
       padding-right: 9vw;
       padding-left: 6vw;
   }
@@ -89,7 +89,12 @@
     left: 48vw;
   }
 
-  @media only screen and (min-width:500px) and (max-width: 1100px){
+  @media only screen and (min-width:1780px) and (max-width: 2600px){
+    .amitDesk-text{
+      top: 190vh;
+    }
+  }
+  @media only screen and (min-width:500px) and (max-width: 1300px){
     .amit-desk-image {
       top: 90vh;
     }

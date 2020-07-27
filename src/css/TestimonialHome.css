@@ -2,7 +2,6 @@
     width: 100%;
     background-color: lightgray;
     position:relative;
-    top: 250vh;
     height: 40vh;
 }
 
@@ -85,7 +84,7 @@ h1 {
 
 .service-caption-text {
     position: relative;
-    top: 170vh;
+    /* top: 170vh; */
 }
 
 figure figcaption {
@@ -104,9 +103,9 @@ figure figcaption {
     text-align:center;
 }
 
-@media only screen and (min-width:1024px) and (max-width: 1300px){
+@media only screen and (min-width:1920px) and (max-width: 2300px){
     .gray {
-        top: 240vh;
+        top: 250vh;
         height: 40vh;
     }
     .services-home-title {
@@ -121,7 +120,28 @@ figure figcaption {
         top: 0vh;
     }
     .service-caption-text{
-        top: 190vh !important;
+        top: 150vh !important;
+    }
+}
+
+@media only screen and (min-width:1024px) and (max-width: 1921px){
+    .gray {
+        top: 225vh;
+        height: 40vh;
+    }
+    .services-home-title {
+        top: 220vh !important;
+    }
+    .services-home-text {
+        top: 305vh !important;
+        width: 80% !important;
+    }
+    .button-container {
+        position:absolute;
+        top: 0vh;
+    }
+    .service-caption-text{
+        top: 150vh;
     }
 }
 
