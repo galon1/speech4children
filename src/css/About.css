@@ -11,14 +11,27 @@ p {
     display:flex;
     flex-direction:row;
     justify-content: center;
+    flex-wrap:wrap;
 }
 
 .picture {
-    height: 60vh !important;
-    width: auto;
+    height: auto;
+    width: 55vw;
 }
 
 .about-description {
     margin-left: 10%;
     margin-right: 10%;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 767px){
+    .picture{
+    height: auto;
+    width: 100%;
+    margin-left: 0px;
+    }
+    .about-description {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 }

@@ -2,10 +2,36 @@
     width: 100%;
     background-color: lightgray;
     position:relative;
-    top: 1500px;
-    min-width: 100%;
+    top: 250vh;
+    height: 40vh;
 }
 
+@media only screen and (min-width:966px) and (max-width: 1300px){
+    .gray {
+        width: 100%;
+        top: 220vh;
+        height: 30vh;
+    }
+}
+
+@media only screen and (min-width:970px) and (max-width: 1200px){
+    .button-container {
+        position:absolute;
+        top: 0vh;
+    }
+}
+@media only screen and (min-width:500px) and (max-width: 966px){
+    .gray {
+        width: 100%;
+        top: 200vh;
+        height: 30vh;
+    }
+    .button-container {
+        position:absolute;
+        top: 5vh;
+    }
+
+}
 .testimonial-quote {
     font-size: 25px;
     width: 70%;
@@ -19,7 +45,7 @@
     display: flex;
     flex-direction: row;
     padding-left: 520px;
-    padding-top: 175px;
+    padding-top: 30vh;
 }
 
 .dot-buttons{
@@ -53,14 +79,14 @@ h1 {
 
 .services-home-title {
     position:relative;
-    top: 1550px;
-    left: 200px;
+    top: 250vh;
+    left: 10vw;
     padding-top: 2vh;
 }
 
 .services-home-text {
-    top: 2050px;
-    left: 200px;
+    top: 335vh;
+    left: 10vw;
     line-height: 25px;
     padding: 0px !important;
     width: 70%;
@@ -85,7 +111,7 @@ h1 {
 
 .service-caption-text {
     position: relative;
-    top: 1100px;
+    top: 175vh;
 }
 
 figure figcaption {
@@ -100,6 +126,6 @@ figure figcaption {
     position:relative;
     font-weight: 500;
     font-size: 30px;
-    top: 1100px;
+    top: 170vh;
     text-align:center;
 }
