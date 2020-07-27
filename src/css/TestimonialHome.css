@@ -59,7 +59,7 @@ h1 {
 }
 
 .services-home-text {
-    top: 340vh;
+    top: 335vh;
     left: 10vw;
     line-height: 25px;
     padding: 0px !important;
@@ -104,7 +104,7 @@ figure figcaption {
     text-align:center;
 }
 
-@media only screen and (min-width:769px) and (max-width: 1300px){
+@media only screen and (min-width:769px) and (max-width: 1100px){
     .gray {
         top: 140vh;
         height: 20vh;
