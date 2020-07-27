@@ -38,9 +38,9 @@
 .bottom-item:hover {
     color: purple;
 }
-@media only screen and (min-width:769px) and (max-width: 1300px){
+@media only screen and (min-width:769px) and (max-width: 1100px){
     .black {
-        top: 100vh;
+        top: 120vh;
         height: 70vh;
     }
 }
