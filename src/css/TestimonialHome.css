@@ -197,7 +197,7 @@ figure figcaption {
 
 @media only screen and (min-width:300px) and (max-width: 500px){
     .gray {
-        top: 190vh;
+        top: 220vh;
         height: 30vh;
     }
 
@@ -211,7 +211,7 @@ figure figcaption {
 
     .button-container {
         position:absolute;
-        top: -10vh !important;
+        top: -6vh !important;
         padding-left: 5vw !important;
     }
     .dot-buttons{
@@ -224,15 +224,20 @@ figure figcaption {
 
     }
     .services-home-title {
-        top: 160vh !important;
+        top: 188vh !important;
 
     }
     .services-home-text {
-        top: 245vh !important;
+        top: 286vh !important;
         width: 80% !important;
     }
     .service-caption-text{
-        top: 180vh !important;
+        top: 213vh !important;
+    }
+    .know-more {
+        font-size: 30px;
+        top: 207vh;
+        line-height: 25px;
     }
 }
 

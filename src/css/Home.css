@@ -145,23 +145,25 @@
       padding: 2vw;
   }
   .amit-desk-image {
-    top: 100vh;
+    top: 110vh;
   }
   .amitFront-text{
-    top: 125vh;
+    top: 135vh;
     width: 100%;
     line-height: 20px;
     padding: 0vw !important;
 
   }
+  .amit-sitting-image {
+    top: 80vh;
+  }
+
   .amitDesk-text{
-    top: 180vh;
+    top: 205vh;
     width: 100%;
     line-height: 20px;
     padding: 0vw !important;
     left: 0;
-
-
   }
   img {
     position: relative;

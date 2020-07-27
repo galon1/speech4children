@@ -46,7 +46,7 @@
 }
 @media only screen and (min-width:300px) and (max-width: 769px){
     .black {
-        top: 140vh;
+        top: 160vh;
         height: 70vh;
     }
     .contact-us {
