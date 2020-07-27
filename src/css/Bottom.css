@@ -38,3 +38,27 @@
 .bottom-item:hover {
     color: purple;
 }
+@media only screen and (min-width:769px) and (max-width: 1300px){
+    .black {
+        top: 100vh;
+        height: 70vh;
+    }
+}
+@media only screen and (min-width:300px) and (max-width: 769px){
+    .black {
+        top: 140vh;
+        height: 70vh;
+    }
+    .contact-us {
+        width: 50%;
+        top: 3vh !important;
+    }
+    .bottom-item {
+        padding-top: 40vh;
+        text-align:center;
+        padding-right: 2vw;
+    }
+    .margin {
+        margin-left: 10vw;
+    }
+}

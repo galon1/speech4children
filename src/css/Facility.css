@@ -8,7 +8,28 @@
 
 .arrow-buttons {
     position:absolute;
-    top: 650px;
+    top: 120vh;
     left: 42%;
 }
+   
+@media only screen and (min-width: 500px) and (max-width: 1100px){
+    .office-pictures {
+        left: 0%
+    }
+    .arrow-buttons {
+        top: 80vh;
+        left: 30%;
+    }
 
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px){
+    .office-pictures {
+        left: 0%
+    }
+    .arrow-buttons {
+        top: 95vh;
+        left: 30%;
+    }
+
+}

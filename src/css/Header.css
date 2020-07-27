@@ -53,3 +53,28 @@
 .link {
     z-index: 100;
 }
+
+@media only screen and (min-width:800px) and (max-width: 1300px){
+    .margin {
+        margin-left: 20vw;
+    }
+}
+@media only screen and (min-width:500px) and (max-width: 800px){
+    .margin {
+        margin-left: 5vw;
+    }
+    .menu-item {
+    padding-right: 1vw;
+    }
+}
+
+@media only screen and (min-width:300px) and (max-width: 500px){
+    .menu-container {
+        flex-wrap:wrap;
+        justify-content: flex-start;
+    }
+    .menu-item {
+        text-align:left;
+        padding: 1vw;
+    }
+}

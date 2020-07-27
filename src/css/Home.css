@@ -26,7 +26,7 @@
     font-weight: 800;
     font-size: 35px;
     line-height: 50px;
-    top: 130px;
+    top: 20vh;
     width: 50%;
     margin-left: 25%;
   }
@@ -89,36 +89,84 @@
     left: 48vw;
   }
 
-  @media only screen and (min-width:800px) and (max-width: 1360px){
+  @media only screen and (min-width:500px) and (max-width: 1100px){
     .amit-desk-image {
-      top: 100vh;
+      top: 90vh;
     }
     .amitFront-text{
+      top: 85vh;
       width: 60vw;
     }
 
     .amitDesk-text{
-      top: 165vh;
-      width: 60vw;
-    }
-  }
-
-  @media only screen and (min-width:500px) and (max-width: 800px){
-    .amitFront-text{
-      width: 60vw;
-    }
-
-    .amitDesk-text{
-      top: 165vh;
-      width: 60vw;
-    }
-    .amit-desk-image {
       top: 120vh;
+      width: 60vw;
+    }
+
+    .cover-page-description {
+      position: absolute;
+      width: 60%;
+      margin-left: 10%;
+    }
+    .purple-background {
+      top: 70vh;
+      height: 20vh;
+  }
+  .purple-description{
+    padding: 2vw;
+}
+
+  }
+
+  @media only screen and (min-width: 500px) and (max-width: 1100px){
+    .background-image{
+    height: 70vh;
     }
   }
 
-  @media only screen and (min-width: 300px) and (max-width: 1340px){
-    .background-image{
-    height: 85vh;
+  @media only screen and (min-width: 300px) and (max-width: 500px){
+    .cover-page-description {
+      top: 35vh;
+      width: 100%;
+      font-size: 20px;
+      margin-left: 5%;
+      line-height: 40px;
     }
+    .background-image{
+      height: 80vh;
+      }
+      .purple-background {
+        top: 80vh;
+        height: 24vh;
+        width: 100%;
+    }
+    .purple-description{
+      font-size: 15px;
+      padding: 2vw;
+  }
+  .amit-desk-image {
+    top: 100vh;
+  }
+  .amitFront-text{
+    top: 125vh;
+    width: 100%;
+    line-height: 20px;
+    padding: 0vw !important;
+
+  }
+  .amitDesk-text{
+    top: 180vh;
+    width: 100%;
+    line-height: 20px;
+    padding: 0vw !important;
+    left: 0;
+
+
+  }
+  img {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+
   }

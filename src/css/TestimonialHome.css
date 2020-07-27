@@ -6,32 +6,6 @@
     height: 40vh;
 }
 
-@media only screen and (min-width:966px) and (max-width: 1300px){
-    .gray {
-        width: 100%;
-        top: 220vh;
-        height: 30vh;
-    }
-}
-
-@media only screen and (min-width:970px) and (max-width: 1200px){
-    .button-container {
-        position:absolute;
-        top: 0vh;
-    }
-}
-@media only screen and (min-width:500px) and (max-width: 966px){
-    .gray {
-        width: 100%;
-        top: 200vh;
-        height: 30vh;
-    }
-    .button-container {
-        position:absolute;
-        top: 5vh;
-    }
-
-}
 .testimonial-quote {
     font-size: 25px;
     width: 70%;
@@ -85,7 +59,7 @@ h1 {
 }
 
 .services-home-text {
-    top: 335vh;
+    top: 340vh;
     left: 10vw;
     line-height: 25px;
     padding: 0px !important;
@@ -129,3 +103,97 @@ figure figcaption {
     top: 170vh;
     text-align:center;
 }
+
+@media only screen and (min-width:769px) and (max-width: 1300px){
+    .gray {
+        top: 140vh;
+        height: 20vh;
+    }
+    .services-home-title {
+        top: 140vh !important;
+        left: -40vw !important;
+
+    }
+    
+    .services-home-text {
+        top: 182vh !important;
+        width: 80% !important;
+    }
+    .button-container {
+        position:absolute;
+        top: -14vh;
+    }
+    .service-caption-text{
+        top: 125vh !important;
+    }
+
+.know-more {
+    top: 130vh !important;
+}
+    
+}
+
+@media only screen and (min-width:500px) and (max-width: 769px){
+    .gray {
+        top: 160vh;
+        height: 30vh;
+    }
+    .button-container {
+        position:absolute;
+        top: -5vh;
+    }
+    .services-home-title {
+        top: 160vh !important;
+        left: -40vw !important;
+
+    }
+    .services-home-text {
+        top: 213vh !important;
+        width: 80% !important;
+    }
+    .service-caption-text{
+        top: 160vh !important;
+    }
+}
+
+@media only screen and (min-width:300px) and (max-width: 500px){
+    .gray {
+        top: 190vh;
+        height: 30vh;
+    }
+
+    .testimonial-quote {
+        font-size: 20px;
+        width: 100%;
+        padding: 1vh;
+        left: 0;
+        line-height: 25px;
+    }
+
+    .button-container {
+        position:absolute;
+        top: -10vh !important;
+        padding-left: 5vw !important;
+    }
+    .dot-buttons{
+        padding: 3vw !important;
+        margin: 2vw !important;
+    }
+    .active-button{
+    padding: 3vw !important;
+    margin: 2vw !important;
+
+    }
+    .services-home-title {
+        top: 160vh !important;
+
+    }
+    .services-home-text {
+        top: 245vh !important;
+        width: 80% !important;
+    }
+    .service-caption-text{
+        top: 180vh !important;
+    }
+}
+
