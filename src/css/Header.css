@@ -1,8 +1,10 @@
 @import "../index.css";
 
 .menu-container {
+    margin-top: 3vh;
     display: flex;
     flex-direction: row;
+    /* flex-wrap:wrap; */
 }
 
 .menu-item {
@@ -11,9 +13,8 @@
     color: black;
     font-family: 'Josefin Sans';
     font-weight: 'bold';
-    font-size: 1.0em;
-    text-align:center;
-    position: relative;
+    font-size: 18px;
+    /* text-align:center; */
     padding-right: 2vw;
 }
 
@@ -29,7 +30,7 @@
     color: white !important;
     font-family: 'Josefin Sans' !important;
     font-weight: 'bold' !important;
-    font-size: 0.9em !important;
+    font-size: 18px !important;
 }
 .contact-button:hover{
     color: black !important;
@@ -54,27 +55,12 @@
     z-index: 100;
 }
 
-@media only screen and (min-width:800px) and (max-width: 1300px){
-    .margin {
-        margin-left: 20vw;
-    }
-}
-@media only screen and (min-width:500px) and (max-width: 800px){
-    .margin {
-        margin-left: 5vw;
-    }
-    .menu-item {
-    padding-right: 1vw;
-    }
-}
-
-@media only screen and (min-width:300px) and (max-width: 500px){
+@media only screen and (min-width: 300px) and (max-width: 1205px){
     .menu-container {
-        flex-wrap:wrap;
-        justify-content: flex-start;
+        flex-wrap:wrap
     }
     .menu-item {
         text-align:left;
-        padding: 1vw;
+        margin: 1vw;
     }
 }

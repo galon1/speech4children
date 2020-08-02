@@ -19,15 +19,8 @@ code {
 
 .page-title{
     text-align: center;
-    padding-top: 100px;
 }
 
 .page-title-caption{
   font-size: 22px;
-}
-
-@media only screen and (min-width:300px) and (max-width: 500px){
-  .page-title{
-    padding-top: 37vh;
-}
 }

@@ -1,15 +1,14 @@
 .gray {
     width: 100%;
     background-color: lightgray;
-    position:relative;
     height: 40vh;
+    margin-top: 20vh;
 }
 
 .testimonial-quote {
     font-size: 25px;
-    width: 70%;
-    padding: 2.5vw;
-    left: 200px;
+    padding: 3vw;
+    padding-left: 15%;
     line-height: 40px;
     height: auto;
 }
@@ -17,8 +16,7 @@
 .button-container {
     display: flex;
     flex-direction: row;
-    padding-left: 520px;
-    padding-top: 30vh;
+    padding-left: 30%;
 }
 
 .dot-buttons{
@@ -51,17 +49,13 @@ h1 {
 }
 
 .services-home-title {
-    position:relative;
-    top: 250vh;
-    left: 10vw;
     padding-top: 2vh;
+    padding-left: 5vw;
 }
 
 .services-home-text {
-    top: 335vh;
-    left: 10vw;
-    line-height: 25px;
-    padding: 0px !important;
+    font-size: 1.2em;
+    padding-left: 5vw;
     width: 70%;
 }
 
@@ -82,11 +76,6 @@ h1 {
     margin-right: 3vw;
 }
 
-.service-caption-text {
-    position: relative;
-    /* top: 170vh; */
-}
-
 figure figcaption {
     margin-left: 3vw;
     text-align: center;
@@ -96,168 +85,41 @@ figure figcaption {
 }
 
 .know-more {
-    position:relative;
     font-weight: 500;
     font-size: 30px;
-    top: 170vh;
     text-align:center;
 }
 
-@media only screen and (min-width:1920px) and (max-width: 2300px){
+@media only screen and (min-width: 700px) and (max-width: 1205px){
     .gray {
-        top: 250vh;
-        height: 40vh;
+      height: 20vh;
+      margin-top: 5vh;
     }
-    .services-home-title {
-        top: 250vh !important;
-    }
-    .services-home-text {
-        top: 340vh !important;
-        width: 80% !important;
-    }
-    .button-container {
-        position:absolute;
-        top: 0vh;
-    }
-    .service-caption-text{
-        top: 150vh !important;
-    }
-}
+  }
 
-@media only screen and (min-width:1024px) and (max-width: 1921px){
+  @media only screen and (min-width: 300px) and (max-width: 699px){
     .gray {
-        top: 225vh;
-        height: 40vh;
+      height: 40vh;
+      margin-top: 5vh;
     }
-    .services-home-title {
-        top: 220vh !important;
-    }
-    .services-home-text {
-        top: 305vh !important;
-        width: 80% !important;
-    }
-    .button-container {
-        position:absolute;
-        top: 0vh;
-    }
-    .service-caption-text{
-        top: 150vh;
-    }
-}
-
-@media only screen and (min-width:769px) and (max-width: 1024){
-    .gray {
-        top: 210vh;
-        height: 40vh;
-    }
-    .services-home-title {
-        top: 210vh !important;
-    }
-    .services-home-text {
-        top: 280vh !important;
-        width: 80% !important;
-    }
-    .button-container {
-        position:absolute;
-        top: 0vh;
-    }
-
-}
-@media only screen and (min-width:769px) and (max-width: 1000px){
-    .gray {
-        top: 140vh;
-        height: 20vh;
-    }
-    .services-home-title {
-        top: 140vh !important;
-        left: -40vw !important;
-
-    }
-    
-    .services-home-text {
-        top: 182vh !important;
-        width: 80% !important;
-    }
-    .button-container {
-        position:absolute;
-        top: -14vh;
-    }
-    .service-caption-text{
-        top: 125vh !important;
-    }
-
-.know-more {
-    top: 130vh !important;
-}
-    
-}
-
-@media only screen and (min-width:500px) and (max-width: 769px){
-    .gray {
-        top: 160vh;
-        height: 30vh;
-    }
-    .button-container {
-        position:absolute;
-        top: -5vh;
-    }
-    .services-home-title {
-        top: 160vh !important;
-        left: -40vw !important;
-
-    }
-    .services-home-text {
-        top: 213vh !important;
-        width: 80% !important;
-    }
-    .service-caption-text{
-        top: 160vh !important;
-    }
-}
-
-@media only screen and (min-width:300px) and (max-width: 500px){
-    .gray {
-        top: 220vh;
-        height: 30vh;
-    }
-
     .testimonial-quote {
-        font-size: 20px;
-        width: 100%;
-        padding: 1vh;
-        left: 0;
-        line-height: 25px;
-    }
-
-    .button-container {
-        position:absolute;
-        top: -6vh !important;
-        padding-left: 5vw !important;
+        font-size: 18px;
     }
     .dot-buttons{
-        padding: 3vw !important;
-        margin: 2vw !important;
+        margin: 1vw !important;
+        padding: 5vw
     }
     .active-button{
-    padding: 3vw !important;
-    margin: 2vw !important;
-
+        margin: 1vw !important;
+        padding: 5vw
     }
-    .services-home-title {
-        top: 188vh !important;
-
+    .brain-picture {
+        width: 40%;
     }
-    .services-home-text {
-        top: 286vh !important;
-        width: 80% !important;
-    }
-    .service-caption-text{
-        top: 213vh !important;
+    figure figcaption {
+        width: 20%;
     }
     .know-more {
-        font-size: 30px;
-        top: 207vh;
-        line-height: 25px;
+        font-size: 25px;
     }
-}
-
+  }

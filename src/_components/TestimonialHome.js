@@ -30,21 +30,21 @@ class TestimonialHome extends React.Component {
         return (
             <>
             <div className="gray">
-                <p className="testimonial-quote"> {this.state.text[this.state.index]}</p>
+                <p className="testimonial-quote"> {this.state.text[this.state.index]}
                <div className="button-container">
                 {buttons.map((index) =>{
                     return (
                         <Button className={index === this.state.index ? "active-button" : "dot-buttons"} circular onClick={() => this.handleButton(index)}> </Button>
                     )
                 })}
-                </div>
+                </div></p>
             </div>
             <h1 className="services-home-title">OUR SERVICES: </h1>
-            <p className="services-home-text"> Speech4Children offers a number of services for children ranging from ages 1 to 18. We work with children and their families to build comphrenseive plans for every child's success.</p>
+            <h1 className="services-home-text"> Speech4Children offers a number of services for children ranging from ages 1 to 18. We work with children and their families to build comphrenseive plans for every child's success.</h1>
             <div className ="services-container">
             {services.map((service) => {
                 return (
-                    <div className="service-caption-text">
+                    <div>
                 <figure >
                    <img src ={brainicon} alt="brains" className="brain-picture" />
                    <figcaption>{service}</figcaption>
@@ -53,9 +53,9 @@ class TestimonialHome extends React.Component {
                 )
             })}
             </div>
-            <p className="know-more"> want to know more about our services?
+            <h1 className="know-more"> want to know more about our services?
                 <br /><Button className="learn-more" onClick={() => { window.open("./contact", "_self")}}>Contact Us</Button>
-            </p>
+            </h1>
             </>
 
         )

@@ -12,7 +12,7 @@ class About extends React.Component {
     render() {
         return (
             <>
-                <p> <Header /></p>
+                <Header />
                <h1 className="page-title">ABOUT:<br /><span className="page-title-caption">Amit Alon</span></h1>
                <div className="border"></div>
                 <div className="picture-container">

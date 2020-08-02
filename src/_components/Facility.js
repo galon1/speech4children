@@ -65,7 +65,7 @@ class Facility extends React.Component {
     render() {
         return (
             <div id="facility">
-              <p> <Header /></p>
+               <Header />
               <h1 className="page-title">The Facility:<br /> <span className="page-title-caption">44 Mechanic St, Newton MA</span></h1>
                 <div className="border"></div>
              <Image className="office-pictures" src={this.state.images[this.state.index]} size='large' bordered/>

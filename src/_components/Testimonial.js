@@ -19,10 +19,10 @@ class Testimonial extends React.Component {
     }
 
     render() {
-        const buttons=[0,1,2,3]
+        const buttons=[0,1,2,3,4]
         return (
             <div id="testimonial">
-               <p> <Header /></p>
+               <Header />
                <h1 className="page-title">TESTIMONIALS:<br /><span className="page-title-caption">from real clients</span></h1>
                 <div className="border"></div>
                 <h2 className="testimonial-person"><i class="star outline icon"></i>{testimonials.titles[this.state.index]}</h2>

@@ -1,7 +1,6 @@
 @import "../index.css";
 
 p {
-    margin-top: 6vh;
     min-height: 60vh;
     line-height: 2.0em;
     font-size: 1.2em;
@@ -22,16 +21,4 @@ p {
 .about-description {
     margin-left: 10%;
     margin-right: 10%;
-}
-
-@media only screen and (min-width: 300px) and (max-width: 767px){
-    .picture{
-    height: auto;
-    width: 100%;
-    margin-left: 0px;
-    }
-    .about-description {
-        margin-left: 0px;
-        margin-right: 0px;
-    }
 }

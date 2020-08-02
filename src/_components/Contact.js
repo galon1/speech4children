@@ -10,29 +10,27 @@ class Contact extends React.Component {
     render() {
         return (
             <div>
-                 <p> <Header /></p>
+                <Header />
               <h1 className="page-title">CONTACT US:<br /> <span className="page-title-caption">Weekdays from 8am-6pm</span></h1>
                <div className= "border"></div>
                <div className="icons-container" >
-               <i class="huge purple building icon"></i><div className="icon-padding"></div>
-               <i class="huge purple envelope icon" ></i><div className="icon-padding"></div>
-               <i class="huge purple phone icon" ></i><div className="icon-padding"></div>
-               </div>
-                <div className="description-container">
-                    <div className="descriptions">
-                <p>44 Mechanic St, Suite 106-108,<br /> Newton MA 02464</p><div className="description-padding"></div></div>
-                <div className="descriptions">
-                <p>speech4children@gmail.com</p>< br/><br />
-                    </div>
+               <figure >
+               <i class="huge purple building icon"></i>
+               <figcaption>44 Mechanic St, Suite 106-108, Newton MA, 20464</figcaption>
+               </figure>
+               <figure >
+               <i class="huge purple envelope icon"></i>
+               <figcaption>speech4children@gmail.com
                     <Button className="email-button">
                     <a className="email-link" href="mailto:speech4children@gmail.com" >Send an Email</a> 
-                    </Button>
-                    <div className="description-padding-last"></div>
-                <div className="descriptions">
-                <p>T: 617.795.0401</p><div className="description-padding"></div></div>
-                
-            </div>
-            </div>
+                    </Button></figcaption>
+               </figure>
+               <figure >
+               <i class="huge purple phone icon"></i>
+               <figcaption>Telephone: 617.795.0401</figcaption>
+               </figure>
+                </div> 
+               </div>
         )
     }
 }
