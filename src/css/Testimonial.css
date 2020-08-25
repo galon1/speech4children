@@ -1,7 +1,7 @@
 @import "../index.css";
 
   .testimonial-person {
-    margin-left: 25%;
+   margin-left: 20%;
     color: purple;
   }
 
@@ -15,7 +15,7 @@
   .testimonial-button-container{
     display: flex;
     flex-direction: row;
-    margin-left: 40%;
+    margin-left: 35%;
     padding-top: 20px;
   }
   

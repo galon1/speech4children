@@ -1,3 +1,5 @@
+@import "../index.css";
+
 .gray {
     width: 100%;
     background-color: lightgray;
@@ -6,9 +8,10 @@
 }
 
 .testimonial-quote {
-    font-size: 25px;
-    padding: 3vw;
-    padding-left: 15%;
+    font-size: 20px;
+    padding-top: 5vh;
+    padding-left: 5%;
+    padding-right: 5%;
     line-height: 40px;
     height: auto;
 }
@@ -16,6 +19,7 @@
 .button-container {
     display: flex;
     flex-direction: row;
+    padding-top: 5vh;
     padding-left: 30%;
 }
 
@@ -40,14 +44,6 @@
     margin: 0.5vw !important;
     z-index:100;
 }
-
-h1 {
-    font-family: Avenir;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 2.0em; 
-}
-
 .services-home-title {
     padding-top: 2vh;
     padding-left: 5vw;
@@ -77,49 +73,51 @@ h1 {
 }
 
 figure figcaption {
-    margin-left: 3vw;
+    margin-left: 5vw;
     text-align: center;
     max-width: 10vw;
-    text-transform: uppercase;
     font-size: 15px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
 }
 
 .know-more {
-    font-weight: 500;
     font-size: 30px;
     text-align:center;
 }
 
 @media only screen and (min-width: 700px) and (max-width: 1205px){
     .gray {
-      height: 20vh;
+      height: 25vh;
       margin-top: 5vh;
     }
   }
 
   @media only screen and (min-width: 300px) and (max-width: 699px){
     .gray {
-      height: 40vh;
+      height: 50vh;
       margin-top: 5vh;
     }
     .testimonial-quote {
         font-size: 18px;
     }
-    .dot-buttons{
-        margin: 1vw !important;
-        padding: 5vw
-    }
-    .active-button{
-        margin: 1vw !important;
-        padding: 5vw
-    }
     .brain-picture {
-        width: 40%;
+        width: 60%;
     }
     figure figcaption {
         width: 20%;
+        margin-left: 5vh;
     }
     .know-more {
         font-size: 25px;
+    }
+    .services-home-title {
+        padding-left: 5vh;
+    }
+    
+    .services-home-text {
+        padding-left: 5vh;
+        width: 80%;
     }
   }

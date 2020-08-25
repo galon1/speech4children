@@ -1,3 +1,17 @@
+@import "../index.css";
+
+h1 {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 400;
+}
+
+ p {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 400;
+ }
+
 .background-image {
   z-index:-1;
     opacity: 0.5;
@@ -21,10 +35,15 @@
 
   .learn-more {
     z-index: 100;
+    margin-top: 1vw !important;
+    margin-bottom: 1vw !important;
     background-color: purple !important; 
     color: white !important;
     width: 150px !important;
     font-size: 15px !important;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
   }
 
   .learn-more:hover{
@@ -54,6 +73,7 @@
     z-index: 100;
     padding-right: 9vw;
     padding-left: 6vw;
+    padding-top: 4vw;
   }
 
   .amit-desk-image {
@@ -64,21 +84,15 @@
 
   .amitFront-text{
     width: 45vw;
-    padding: 3vw;
+    padding-top: 6vw;
     padding-left: 12vw !important;
-    font-family: Avenir;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 30px;
   }
 
   .amitDesk-text{
     margin: 12vw;
-    font-family: Avenir;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 30px;
   }
   
@@ -90,14 +104,39 @@
     .purple-background {
       height: 20vh;
     }
+    .amitDesk-text{
+      margin: 3vw;
+    }
   }
 
   @media only screen and (min-width: 600px) and (max-width: 799px){
     .background-image {
-      height: 88vh;
+      height: 70vh;
     }
     .purple-background {
       height: 20vh;
+    }
+    .amit-sitting-image {
+      width: 80%;
+      padding-left: 0;
+      left: -5%;
+      height: auto;
+    }
+  
+    .amit-desk-image {
+      left: 5%;
+      width: 80%;
+      height: auto
+    }
+  
+    .amitFront-text{
+      padding-top: 43vh;
+      width: 80%;
+    }
+  
+    .amitDesk-text{
+      padding-top: 35vh;
+      width: 80%;
     }
   }
 
@@ -122,9 +161,10 @@
       height: auto;
     }
     .amitFront-text{
-      width: 100%;
+      width: 90%;
     }
     .amitDesk-text{
-      width: 100%;
+      width: 90%;
+      margin-right: 2vh;
     }
   }

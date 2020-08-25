@@ -7,9 +7,6 @@
 
 .speech4children {
     color: white;
-    font-family: Avenir;
-    font-style: normal;
-    font-weight: normal;
     font-size: 35px;
     padding-top: 3vh;
     width: 70%;
@@ -19,9 +16,6 @@
     position:relative;
     top:-15vh !important;
     color: white;
-    font-family: Avenir;
-    font-style: normal;
-    font-weight: normal;
     font-size: 15px;
     line-height:1.75em;
     margin-left: 80%;
@@ -48,6 +42,9 @@
       margin-top: 5vh;
       width: 100%;
     }
+    .contact-us {
+        top:-10vh !important;
+    }
   }
 
 
@@ -58,8 +55,6 @@
         width: 70%;
     }
     .bottom-item {
-        text-align: left;
-        padding-right: 10vw;
-        /* text-align:left; */
+        display: none
     }
   }

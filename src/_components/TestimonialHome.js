@@ -10,8 +10,8 @@ class TestimonialHome extends React.Component {
         this.state = {
             text: [
                 `"She was the most professional and caring therapist my son had... With animated and creative personality, she always finds a way to have the children excited and engaged...My son loved her"- J.V.`,
-                `"After beginning speech and language services with Amit, I began to notice a substantial change in my child"-M.J`, 
-                `"She is superb at being able to identify the true core issues of what my son has been struggling with"-E.G.`,
+                `"After beginning speech and language services with Amit, I began to notice a substantial change in my child. Not only did she quickly establish and maintain a warm rapport, her...expertise have served as a great anchor to my family."-M.J`, 
+                `"She is superb at being able to identify the true core issues of what my son has been struggling with. She then knows how to correct those issues through fun methodical exercises and lessons."-E.G.`,
                 `"She has worked with my child's grandmother, my husband, and me to create a language rich environment and refine our daily routines so that my child can successfully bring the lessons from speech therapy into his daily life"-O.S.J`
             ],
             index: 0,
@@ -26,7 +26,7 @@ class TestimonialHome extends React.Component {
 
     render() {
         const buttons = [0, 1, 2, 3]
-        const services =['Language Development','Articulation', 'Motor Speech Disorders', 'Language-based Learning Disabilities', 'Autism Spectrum Disorders', 'Social Communication', 'Selective Mutism', 'Bilingual Therapy']
+        const services =['LANGUAGE DEVELOPMENT','ARTICULATION', 'MOTOR SPEECH DISORDERS', 'LANGUAGE-BASED LEARNING DISABILITIES', 'AUTISM SPECTRUM DISORDERS', 'SOCIAL COMMUNICATION', 'SELECTIVE MUTISM', 'BILINGUAL THERAPY']
         return (
             <>
             <div className="gray">
@@ -34,7 +34,7 @@ class TestimonialHome extends React.Component {
                <div className="button-container">
                 {buttons.map((index) =>{
                     return (
-                        <Button className={index === this.state.index ? "active-button" : "dot-buttons"} circular onClick={() => this.handleButton(index)}> </Button>
+                        <Button key={index} className={index === this.state.index ? "active-button" : "dot-buttons"} circular onClick={() => this.handleButton(index)}> </Button>
                     )
                 })}
                 </div></p>
@@ -44,16 +44,16 @@ class TestimonialHome extends React.Component {
             <div className ="services-container">
             {services.map((service) => {
                 return (
-                    <div>
-                <figure >
-                   <img src ={brainicon} alt="brains" className="brain-picture" />
+                    <div key={service}>
+                <figure>
+                   <img  src ={brainicon} alt="brains" className="brain-picture" />
                    <figcaption>{service}</figcaption>
                 </figure>
                 </div>
                 )
             })}
             </div>
-            <h1 className="know-more"> want to know more about our services?
+            <h1 className="h1 know-more"> want to know more about our services?
                 <br /><Button className="learn-more" onClick={() => { window.open("./contact", "_self")}}>Contact Us</Button>
             </h1>
             </>
