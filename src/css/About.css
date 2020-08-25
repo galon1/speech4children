@@ -22,3 +22,10 @@ p {
     margin-left: 10%;
     margin-right: 10%;
 }
+@media only screen and (min-width: 300px) and (max-width: 800px){
+    .picture {
+        width: 100%;
+        height:auto;
+
+    }
+}
