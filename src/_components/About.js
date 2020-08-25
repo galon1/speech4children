@@ -16,8 +16,8 @@ class About extends React.Component {
                <h1 className="page-title">ABOUT:<br /><span className="page-title-caption">Amit Alon</span></h1>
                <div className="border"></div>
                 <div className="picture-container">
-                <Image className="picture" src={standing} bordered floated='left' />
-                <Image className="picture" src={working} bordered='left' />
+                <Image className="picture" src={standing} bordered />
+                <Image className="picture" src={working} bordered />
                 </div><p className="about-description"> {about.text} </p>
                 </>
         )

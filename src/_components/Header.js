@@ -10,7 +10,7 @@ class Header extends React.Component {
     handleChange = (e, { name, value }) => window.open(`${value}`, "_self")
 
     render() {
-        const Mobile = props => <Responsive {...props} maxWidth={1024} />;
+        const Mobile = props => <Responsive {...props} maxWidth={1100} />;
         const menu = [
             {
                 key: "HOME",

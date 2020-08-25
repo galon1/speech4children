@@ -14,7 +14,7 @@
 
 .contact-us {
     position:relative;
-    top:-15vh !important;
+    top:-10vh !important;
     color: white;
     font-size: 15px;
     line-height:1.75em;
@@ -22,19 +22,6 @@
 
 }
 
-.bottom-item {
-    color: white;
-    font-family: 'Josefin Sans';
-    font-weight: 'bold';
-    font-size:  15px;
-    text-align:center;
-    padding-right: 5vw;
-    padding-top: 0px !important;
-}
-
-.bottom-item:hover {
-    color: purple;
-}
 
 @media only screen and (min-width: 700px) and (max-width: 1205px){
     .black {
@@ -53,8 +40,5 @@
         margin-top:15vh;
         margin-left: 10%;
         width: 70%;
-    }
-    .bottom-item {
-        display: none
     }
   }

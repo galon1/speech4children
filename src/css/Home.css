@@ -95,14 +95,13 @@ h1 {
     font-size: 18px;
     line-height: 30px;
   }
-  
 
-@media only screen and (min-width: 800px) and (max-width: 1205px){
+@media only screen and (min-width: 800px) and (max-width: 1203px){
     .background-image {
-      height: 60vh;
+      height: 100vh;
     }
     .purple-background {
-      height: 20vh;
+      height: 40vh;
     }
     .amitDesk-text{
       margin: 3vw;

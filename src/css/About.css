@@ -16,6 +16,7 @@ p {
 .picture {
     height: auto;
     width: 40%;
+    margin-right: 2vw;
 }
 
 .about-description {
@@ -26,6 +27,7 @@ p {
     .picture {
         width: 100%;
         height:auto;
-
+        margin-right: 0vw;
+        margin-bottom: 2vh;
     }
 }
