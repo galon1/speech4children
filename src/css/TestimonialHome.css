@@ -87,13 +87,6 @@ figure figcaption {
     text-align:center;
 }
 
-@media only screen and (min-width: 1203px) and (max-width: 2000px){
-    .gray {
-        height: 10vh !important;
-    }
-
-}
-
   @media only screen and (min-width: 300px) and (max-width: 699px){
     .gray {
       height: 300px;
