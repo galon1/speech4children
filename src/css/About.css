@@ -13,7 +13,7 @@ p {
     flex-wrap:wrap;
 }
 
-.picture {
+.about-picture {
     height: auto;
     width: 40%;
     margin-right: 2vw;
@@ -24,8 +24,8 @@ p {
     margin-right: 10%;
 }
 @media only screen and (min-width: 300px) and (max-width: 800px){
-    .picture {
-        width: 100%;
+    .about-picture {
+        width: 100vh;
         height:auto;
         margin-right: 0vw;
         margin-bottom: 2vh;
