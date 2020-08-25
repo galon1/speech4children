@@ -63,10 +63,13 @@ h1 {
       padding: 4vw;
   }
 
-  .amit-sitting-image {
+  img {
     position: relative;
     width: 55vw;
     height: auto;
+  }
+
+  .amit-sitting-image {
     z-index: 100;
     padding-right: 9vw;
     padding-left: 6vw;
@@ -74,9 +77,6 @@ h1 {
   }
 
   .amit-desk-image {
-    position: relative;
-    width: 55vw;
-    height: auto;
       padding-right: 9vw;
       padding-left: 6vw;
 
@@ -154,6 +154,10 @@ h1 {
     }
     .purple-background {
       font-size: 12px;
+    }
+    img {
+      width:100%;
+      height: auto;
     }
     .amitFront-text{
       width: 90%;
