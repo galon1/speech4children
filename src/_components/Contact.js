@@ -14,20 +14,20 @@ class Contact extends React.Component {
               <h1 className="page-title">CONTACT US:<br /> <span className="page-title-caption">Weekdays from 8am-6pm</span></h1>
                <div className= "border"></div>
                <div className="icons-container" >
-               <figure >
+               <figure className="contact-figure">
                <i class="huge purple building icon"></i>
-               <figcaption>44 Mechanic St, Suite 106-108, Newton MA, 20464</figcaption>
+               <figcaption className="contact-caption">44 Mechanic St, Suite 106-108, Newton MA, 20464</figcaption>
                </figure>
-               <figure >
+               <figure className="contact-figure">
                <i class="huge purple envelope icon"></i>
-               <figcaption>speech4children@gmail.com
+               <figcaption className="contact-caption">speech4children@gmail.com
                     <Button className="email-button">
                     <a className="email-link" href="mailto:speech4children@gmail.com" >Send an Email</a> 
                     </Button></figcaption>
                </figure>
-               <figure >
+               <figure className="contact-figure">
                <i class="huge purple phone icon"></i>
-               <figcaption>Telephone: 617.795.0401</figcaption>
+               <figcaption className="contact-caption">Telephone: 617.795.0401</figcaption>
                </figure>
                 </div> 
                </div>

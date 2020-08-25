@@ -1,6 +1,5 @@
 @import "../index.css";
 
-
 .icons-container {
     display: flex;
     flex-direction: row;
@@ -25,16 +24,29 @@ i {
     color: purple !important;
 }
 
-figure figcaption {
-    text-align: left;
-    width: 15vw;
-    text-transform: none;
-    font-size: 15px;
+.contact-figure {
+    text-align: center;
+    float: right;
+    text-indent: 0;
+    margin-left: 10vw;
 
 }
+.contact-caption {
+    font-size: 15px;
+    text-align: left;
+}
 
-@media only screen and (min-width: 300px) and (max-width: 600px){
-    i {
-        margin-left: 0vw !important;
+@media only screen and (min-width: 300px) and (max-width: 800px){
+    .icons-container {
+        justify-content: center;
+    }
+    .contact-figure {
+        padding-left:4vh;
+        padding-right:4vh;
+
+    }
+    .contact-caption {
+    min-width: 100%;
+    margin-left: 0vw;
     }
 }
