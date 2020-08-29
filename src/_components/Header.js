@@ -39,15 +39,15 @@ class Header extends React.Component {
             }
         ]
         return (
-            <div>
+            <div className="wrapper">
                 <nav className="desktop">
                     <div className="menu-container">
                     <Link to="/" className="link"> <h2 className="logo-title">Speech4Children</h2></Link>
                         <div className="margin"></div>
                         <a href="./" className="menu-item">HOME</a>
                         <a href="./about" className="menu-item">ABOUT</a>
-                        <a href="./testimonial" className="menu-item">TESTIMONIALS</a>
                         <a href="./facility" className="menu-item">FACILITY</a>
+                        <a href="./testimonial" className="menu-item">TESTIMONIALS</a>
                         <Button className="contact-button" onClick={() => { window.open("./contact", "_self") }}>CONTACT</Button>
                     </div>
                 </nav>
@@ -59,7 +59,6 @@ class Header extends React.Component {
                         className="dropdown-button"
                         icon='align justify'
                         button
-                         text="GO..."
                             options={menu}
                             onChange={this.handleChange}>
                         </Dropdown>

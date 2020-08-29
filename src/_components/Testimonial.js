@@ -25,15 +25,16 @@ class Testimonial extends React.Component {
                <Header />
                <h1 className="page-title">TESTIMONIALS:<br /><span className="page-title-caption">from real clients</span></h1>
                 <div className="border"></div>
-                <h2 className="testimonial-person"><i className="star outline icon"></i>{testimonials.titles[this.state.index]}</h2>
-                <div className="testimonial-description">{testimonials.description[this.state.index]}</div>
                 <div className= "testimonial-button-container">
                 {buttons.map((index) =>{
                     return (
-                        <Button key={index} basic size='huge' onClick={() => this.handleButton(index)}>{index + 1}</Button>
+                        <Button key={index} basic size='huge' onClick={() => this.handleButton(index)} color={index === this.state.index ? "purple" : null}>{index + 1}</Button>
                     )
                 })}
                 </div>
+                <h2 className="testimonial-person"><i className="star outline icon"></i>{testimonials.titles[this.state.index]}</h2>
+                <div className="testimonial-description">{testimonials.description[this.state.index]}</div>
+               
                 </div>
         )
     }

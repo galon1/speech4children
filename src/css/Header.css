@@ -13,7 +13,6 @@
     font-family: 'Josefin Sans';
     font-weight: 'bold';
     font-size: 18px;
-    padding-right: 5%;
     margin-top: 1vw;
 }
 
@@ -36,7 +35,7 @@
 }
 
 .margin {
-    margin-left: 20%;
+    margin-left: 10%;
 }
 
 .logo-title {
@@ -86,13 +85,9 @@
     .desktop {
     display: none !important
     }
-    .menu-container {
-        flex-wrap: wrap;
-    }
     .dropdown-button{
         background-color:purple !important;
         color: white !important;
-        font-size: 15px !important;
-        left: 0% !important;
+        font-size: 10px !important;
     }
 }

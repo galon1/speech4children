@@ -24,3 +24,7 @@ code {
 .page-title-caption{
   font-size: 22px;
 }
+.wrapper {
+  padding-left: 5vw;
+  padding-right: 5vw;
+}

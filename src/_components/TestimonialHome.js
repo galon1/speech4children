@@ -30,6 +30,7 @@ class TestimonialHome extends React.Component {
         return (
             <>
             <div className="gray">
+            <div className="wrapper">
                 <p className="testimonial-quote"> {this.state.text[this.state.index]}
                <div className="button-container">
                 {buttons.map((index) =>{
@@ -38,7 +39,9 @@ class TestimonialHome extends React.Component {
                     )
                 })}
                 </div></p>
+                </div>
             </div>
+            <div className="wrapper">
             <h1 className="services-home-title">OUR SERVICES: </h1>
             <h1 className="services-home-text"> Speech4Children offers a number of services for children ranging from ages 1 to 18. We work with children and their families to build comphrenseive plans for every child's success.</h1>
             <div className ="services-container">
@@ -53,9 +56,10 @@ class TestimonialHome extends React.Component {
                 )
             })}
             </div>
-            <h1 className="h1 know-more"> want to know more about our services?
+            <h1 className="h1 know-more"> Want to know more about our services?
                 <br /><Button className="learn-more" onClick={() => { window.open("./contact", "_self")}}>Contact Us</Button>
             </h1>
+            </div>
             </>
 
         )

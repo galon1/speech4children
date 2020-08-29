@@ -1,6 +1,6 @@
 import 'semantic-ui-css/semantic.min.css'
 import React from 'react';
-import { Image } from 'semantic-ui-react'
+import { Image, Button } from 'semantic-ui-react'
 import building from '../images/building.jpeg'
 import beanbag from '../images/beanbag.jpeg'
 import room1 from '../images/room1.jpeg'
@@ -68,14 +68,14 @@ class Facility extends React.Component {
                <Header />
               <h1 className="page-title">The Facility:<br /> <span className="page-title-caption">44 Mechanic St, Newton MA</span></h1>
                 <div className="border"></div>
-             <Image className="office-pictures" src={this.state.images[this.state.index]} size='large' bordered/>
+             <Image className="office-pictures" src={this.state.images[this.state.index]} size='large' centered bordered/>
            <div className="arrow-buttons">
-           <div class="large ui vertical inverted secondary button  button" onClick={() => this.onClickBack()}>
+           <Button basic size="large" color="grey" onClick={() => this.onClickBack()}>
                     <i class="angle left icon"></i>
-                </div>
-             <div class="large ui vertical inverted secondary button  button" onClick={() => this.onClickForward()}>
+                </Button>
+             <Button basic size="large" color="grey" onClick={() => this.onClickForward()}>
                     <i class="angle right icon"></i>
-                </div>  
+                </Button>  
                 </div>
              </div>
         )

@@ -1,6 +1,5 @@
 import 'semantic-ui-css/semantic.min.css'
 import React from 'react';
-import { Button } from 'semantic-ui-react'
 import '../css/Contact.css'
 import Header from './Header.js'
 
@@ -11,7 +10,7 @@ class Contact extends React.Component {
         return (
             <div>
                 <Header />
-              <h1 className="page-title">CONTACT US:<br /> <span className="page-title-caption">Weekdays from 8am-6pm</span></h1>
+              <h1 className="page-title">CONTACT US:<br /> <span className="page-title-caption">Please call the office weekdays from 8am-6pm</span></h1>
                <div className= "border"></div>
                <div className="icons-container" >
                <figure className="contact-figure">
@@ -20,14 +19,11 @@ class Contact extends React.Component {
                </figure>
                <figure className="contact-figure">
                <i class="huge purple envelope icon"></i>
-               <figcaption className="contact-caption">speech4children@gmail.com
-                    <Button className="email-button">
-                    <a className="email-link" href="mailto:speech4children@gmail.com" >Send an Email</a> 
-                    </Button></figcaption>
+               <figcaption className="contact-caption">speech4children@gmail.com</figcaption>
                </figure>
                <figure className="contact-figure">
                <i class="huge purple phone icon"></i>
-               <figcaption className="contact-caption">Telephone: 617.795.0401</figcaption>
+               <figcaption className="contact-caption">PREFERRED METHOD: Telephone: 617.795.0401</figcaption>
                </figure>
                 </div> 
                </div>

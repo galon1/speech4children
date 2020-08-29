@@ -14,8 +14,6 @@ p {
 }
 
 .about-picture {
-    height: auto;
-    width: 40%;
     margin-right: 2vw;
 }
 
@@ -25,9 +23,6 @@ p {
 }
 @media only screen and (min-width: 300px) and (max-width: 800px){
     .about-picture {
-        width: 80%;
-        height:auto;
-        margin-right: 0vw;
-        margin-bottom: 2vh;
+        margin-bottom: 2vh !important;
     }
 }

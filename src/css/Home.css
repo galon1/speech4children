@@ -29,7 +29,7 @@ h1 {
     line-height: 50px;
     width: 50%;
     margin-left: 25%;
-    margin-top: 5%;
+    padding-top: 15%;
     margin-bottom: 5%;
   }
 
@@ -50,120 +50,114 @@ h1 {
     color: black !important;
   }
 
-  .purple-background {
-      background-color: purple;
-      color: white; 
-      max-width: 100%;
-      height: 40vh;
-      text-align: center; 
-      font-size: 18px;
-  }
-
   .purple-description{
-      padding: 4vw;
-  }
-
-  img {
-    position: relative;
-    width: 55vw;
-    height: auto;
+    background-color: purple;
+    color: white; 
+    max-width: 100%;
+    text-align: center; 
+    font-size: 18px;
+    padding: 4vw;
+    padding-bottom: 20vh;
+    margin-top: 5vh;
   }
 
   .amit-sitting-image {
+    position: relative;
+    width: 50%;
+    height: auto;
     z-index: 100;
-    padding-right: 9vw;
     padding-left: 6vw;
     padding-top: 4vw;
+    padding-bottom: 5vw;
   }
 
   .amit-desk-image {
-      padding-right: 9vw;
-      padding-left: 6vw;
-
+    position: relative;
+    width: 50%;
+    height: auto;
   }
 
   .amitFront-text{
     width: 45vw;
     padding-top: 6vw;
-    padding-left: 12vw !important;
     font-size: 18px;
     line-height: 30px;
   }
 
   .amitDesk-text{
-    margin: 12vw;
+    margin-top: 30%;
+    margin-left: 2%;
     font-size: 18px;
     line-height: 30px;
   }
 
-@media only screen and (min-width: 800px) and (max-width: 1203px){
-    .background-image {
-      height: 100vh;
-    }
-    .purple-background {
-      height: 40vh;
-    }
+  @media only screen and (min-width: 999px) and (max-width: 1250px){
     .amitDesk-text{
-      margin: 3vw;
+      margin-top: 22%;
+    }
+    .amit-desk-image {
+      width: 60%
+    }
+    .amit-sitting-image {
+      width: 60%;
+    }
+    .background-image {
+      height: 140vh;
     }
   }
 
-  @media only screen and (min-width: 600px) and (max-width: 799px){
-    .background-image {
-      height: 70vh;
+  @media only screen and (min-width: 900px) and (max-width: 999px){
+    .amitDesk-text{
+      margin-top: 10%;
     }
-    .purple-background {
-      height: 20vh;
+    .amit-desk-image {
+      width: 50%
     }
     .amit-sitting-image {
-      width: 80%;
-      padding-left: 0;
-      left: -5%;
-      height: auto;
+      width: 50%;
     }
-  
+    .background-image {
+      height: 160vh;
+    }
+  }
+  @media only screen and (min-width: 600px) and (max-width: 900px){
+    .background-image {
+      height: 180vh;
+    }
+    
+  }
+    @media only screen and (min-width: 300px) and (max-width: 900px){
+    .amit-sitting-image {
+      width: 94%;
+      padding-left: 0vw;
+      padding-top: 0vw;
+      padding-bottom: 0vw;
+    }
     .amit-desk-image {
-      left: 5%;
-      width: 80%;
-      height: auto
+      width: 94%;
     }
-  
-    .amitFront-text{
-      padding-top: 43vh;
-      width: 80%;
-    }
-  
     .amitDesk-text{
-      padding-top: 35vh;
-      width: 80%;
+      margin-top: 0%;
+      width: 90%;
+    }
+    .amitFront-text{
+      width: 90%;
+      margin-left: 2%;
     }
   }
 
   @media only screen and (min-width: 300px) and (max-width: 600px){
     .background-image {
-      height: 88vh;
-      width: 110%;
-    }
-    .purple-background {
-      height: 25vh;
+      height: 94vh;
     }
     .cover-page-description {
       font-size: 28px;
       width: 100%;
-      margin-left: 0%;
-    }
-    .purple-background {
-      font-size: 12px;
-    }
-    img {
-      width:100%;
-      height: auto;
-    }
-    .amitFront-text{
-      width: 90%;
-    }
-    .amitDesk-text{
-      width: 90%;
-      margin-right: 2vh;
-    }
+      margin-left: 0%
   }
+}
+@media only screen and (min-width: 300px) and (max-width: 540px){
+  .background-image {
+    height: 130vh;
+  }
+}

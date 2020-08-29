@@ -7,46 +7,26 @@
     flex-wrap: wrap;
     margin-top: 5vh; 
 }
+
 i {
-    margin-left: 5vw !important;
+    margin-left: 3vw !important;
 }
-.email-link {
-    color: black !important;
-    z-index: 100 !important;
-}
-.email-button {
-    z-index: 100;
-    background-color: white !important;
-    border:1px solid black !important;
-}
-
-.email-link:hover {
-    color: purple !important;
-}
-
 .contact-figure {
     text-align: center;
     float: right;
-    text-indent: 0;
     margin-left: 10vw;
 
 }
 .contact-caption {
-    font-size: 15px;
-    text-align: left;
+    font-size: 20px;
 }
 
-@media only screen and (min-width: 300px) and (max-width: 800px){
+@media only screen and (min-width: 300px) and (max-width: 900px){
     .icons-container {
-        justify-content: center;
+        justify-content: left;
     }
-    .contact-figure {
-        padding-left:4vh;
-        padding-right:4vh;
-
-    }
+    
     .contact-caption {
-    min-width: 100%;
-    margin-left: 0vw;
+    max-width: 30vw;
     }
 }

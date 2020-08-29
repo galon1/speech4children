@@ -3,16 +3,8 @@
 .office-pictures {
     height: auto;
     width: 100vh !important;
-    left: 27%;
 }
 
 .arrow-buttons {
-    margin-left: 42%;
+    text-align:center;
 }
-
-@media only screen and (min-width: 300px) and (max-width: 1200px){
-    .office-pictures {
-        left: 0%
-    }
-}
-
