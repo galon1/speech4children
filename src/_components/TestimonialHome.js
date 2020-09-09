@@ -9,6 +9,7 @@ class TestimonialHome extends React.Component {
         super(props);
         this.state = {
             text: [
+                `"As soon as we started seeing Amit, we knew we were in safe hands. Amit is a game changer in the field of autism and communication disorders related therapies, leaving a blazing trail behind her.-N.B"`,
                 `"She was the most professional and caring therapist my son had... With animated and creative personality, she always finds a way to have the children excited and engaged...My son loved her"- J.V.`,
                 `"After beginning speech and language services with Amit, I began to notice a substantial change in my child. Not only did she quickly establish and maintain a warm rapport, her...expertise have served as a great anchor to my family."-M.J`, 
                 `"She is superb at being able to identify the true core issues of what my son has been struggling with. She then knows how to correct those issues through fun methodical exercises and lessons."-E.G.`,
@@ -25,7 +26,7 @@ class TestimonialHome extends React.Component {
     }
 
     render() {
-        const buttons = [0, 1, 2, 3]
+        const buttons = [0, 1, 2, 3, 4]
         const services =['LANGUAGE DEVELOPMENT','ARTICULATION', 'MOTOR SPEECH DISORDERS', 'LANGUAGE-BASED LEARNING DISABILITIES', 'AUTISM SPECTRUM DISORDERS', 'SOCIAL COMMUNICATION', 'SELECTIVE MUTISM', 'BILINGUAL THERAPY']
         return (
             <>

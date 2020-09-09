@@ -19,7 +19,7 @@ class Testimonial extends React.Component {
     }
 
     render() {
-        const buttons=[0,1,2,3,4]
+        const buttons=[0,1,2,3,4,5]
         return (
             <div id="testimonial">
                <Header />
